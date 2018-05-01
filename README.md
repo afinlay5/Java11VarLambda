@@ -18,6 +18,7 @@ Built and tested on Linux Mint, SUSE Linux.
 # Known Problems
 - Fails with openJDK 11 EA+11 (04/30/2018).
 - Fails with Oracle JDK 11 EA+11 (04/30/2018).
+- Bug: Incorrect attempt to cast the result of java.lang.reflect.Method.invoke() to java.lang.invoke.SerializedLambda (04/30/2018).
 
 # Execution Screenshot
 <!-- ![alt text](https://raw.githubusercontent.com/afinlay5/Java11Var/master/gradle_run.png) -->

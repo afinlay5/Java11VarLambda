@@ -54,7 +54,7 @@ public class Test {
 		/* Perform reflection on Annotated Lambda Expression Argument */
 		Method meth = divide.getClass().getMethod("doMath", double.class, double.class);
 		try {
-			var sl = (java.lang.invoke.SerializedLambda)meth.invoke(divide);
+			var sl = (java.lang.invoke.SerializedLambda) (meth.invoke(divide));
 		} catch (Exception e) { out.println("Attempt to perform reflection on SerializedLambda failed."); }
 
 		/* Implicitly Typed Syntax: The old way */
