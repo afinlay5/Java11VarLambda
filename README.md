@@ -2,7 +2,7 @@
 Gradle source code repository for the examples from my blog post, http://bit.ly/Java11Ft1.
 Built and tested on Linux Mint, SUSE Linux.
 
-![alt text](https://raw.githubusercontent.com/afinlay5/Java11Var/master/blog.png)
+![alt text](https://raw.githubusercontent.com/afinlay5/Java11VarLambda/master/blog.png)
 
 # Platform 
 - Any supporting a JVM for Java SE 11+.
@@ -21,4 +21,4 @@ Built and tested on Linux Mint, SUSE Linux.
 
 # Execution Screenshot
 <!-- ![alt text](https://raw.githubusercontent.com/afinlay5/Java11Var/master/gradle_run.png) -->
-![alt text](https://raw.githubusercontent.com/afinlay5/Java11Var/master/run.png)
+![alt text](https://raw.githubusercontent.com/afinlay5/Java11VarLambda/master/run.png)
